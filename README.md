@@ -6,8 +6,8 @@
 
 ``` bash
 #效果
-![Image text](https://raw.githubusercontent.com/wuhaoran0409/vue-water-mark-tools/master/demoImg/1.png)
-![Image text](https://raw.githubusercontent.com/wuhaoran0409/vue-water-mark-tools/master/demoImg/2.png)
+![Image](https://raw.githubusercontent.com/wuhaoran0409/vue-water-mark-tools/master/demoImg/1.png)
+![Image](https://raw.githubusercontent.com/wuhaoran0409/vue-water-mark-tools/master/demoImg/2.png)
 # 安装组件
 npm install vue-water-mark-tools --save
 
