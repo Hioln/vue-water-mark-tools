@@ -1,21 +1,21 @@
 # vue-watermark
 
-> a cavas watermark
+>一个canvas制作背景水印，完全自定义。
 
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+# 安装组件
+npm install vue-water-mark-tools --save
 
-# serve with hot reload at localhost:8080
+# 启动本地项目
 npm run dev
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+# 使用详情
+一.在main.js
+1. import VueWater from 'vue-water-mark-tools/src/lib/index';
+2. Vue.use(VueWater);
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+二.在使用的页面
+<vue-water-mark-tools fatherId="hello"></vue-water-mark-tools>
