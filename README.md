@@ -5,8 +5,8 @@
 ## Build Setup
 
 ``` bash
-![image](https://github.com/wuhaoran0409/vue-water-mark-tools/blob/master/demoImg/1.png)
-https://github.com/wuhaoran0409/vue-water-mark-tools/raw/master/demoImg/2.png
+![](https://wuhaoran0409.github.io/waterMark/1.png)
+![](https://wuhaoran0409.github.io/waterMark/2.png)
 # 安装组件
 npm install vue-water-mark-tools --save
 
