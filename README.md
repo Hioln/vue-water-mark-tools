@@ -19,7 +19,7 @@ npm run dev
 
 二.在页面的引入
 <div id="fatherid">
-  <vue-water-mark-tools fatherId="fatherid"></vue-water-mark-tools>
+  <vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
 </div>
 
 
@@ -28,7 +28,7 @@ npm run dev
 2.props其他属性可以均为使用者自定义属性,均有默认值。
 3.在父页面引入此组件之后需使用者在父页面中的mounted()钩子监并且在watch钩子中监听$route
 4.在父页面使用详细:
-<water-mark ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></water-mark>
+<vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
   watch: {
     $route() {
       setTimeout(_ => {
