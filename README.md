@@ -21,7 +21,8 @@
 ### 使用时机
 1. 路由跳转时使用，可根据父页面的高度，水印自动适应分配高度及宽度
 * 示例：
-*   `<vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
+```vue
+ `<vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
   watch: {
     $route() {
        this.$refs.waterMarkRef.initPage();
