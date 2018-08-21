@@ -32,14 +32,13 @@
     this.$refs.waterMarkRef.initPage();
   }
 ```
-2. 一个页面有频繁的DOM操作。例如：A种业务页面操作完成，想渲染B种业务页面。并没有跳转路由，但是，水印外层的div高度改变。此时需要使用。
+2. 一个页面有频繁的DOM操作。例如：A种业务页面操作完成，想渲染B种业务页面。并没有跳转路由，但是，水印外层的div高度改变。此时需要使用。这里需要用到vuex，需要在mounted时，把ref="waterMarkRef"，存入state中，想重新渲染水印调用waterMark对象中的initPage()方法。
 * 示例：
 ```vue
   <vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
   this.$store.state.waterMark.waterRef.initPage();
 ```
-  这里需要用到vuex，需要在mounted时，把ref="waterMarkRef"，存入state中，想重新渲染水印调用waterMark对象中的initPage()方法。
-  
+
 ### 参数配置
 |参数名称|参数说明|类型|默认值|
 |:---|:---|:---|:---|
