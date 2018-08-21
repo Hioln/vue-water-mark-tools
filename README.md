@@ -4,27 +4,24 @@
 
 ## 安装
 >>npm install vue-water-mark-tools --save
+>>npm run dev
+
+## 效果展示     
 ![](https://wuhaoran0409.github.io/waterMark/1.png)
 ![](https://wuhaoran0409.github.io/waterMark/2.png)
-# 安装组件
 
-
-# 启动本地项目
-npm run dev
-
-
-# 使用详情
-一.在main.js
+# 使用
+### 在main.js
 1. import VueWater from 'vue-water-mark-tools/src/lib/index';
 2. Vue.use(VueWater);
 
-二.在页面的引入
-<div id="fatherid">
+## 在页面的引入
+<div id="fatherid"> 
   <vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
 </div>
 
 
-三.详细配置及页面渲染时机
+## 详细配置及页面渲染时机
 1.必须从父页面传过来一个fatherId,此字段为使用者想把canvas插入的div的id属性
 2.props其他属性可以均为使用者自定义属性,均有默认值。
 3.在父页面引入此组件之后需使用者在父页面中的mounted()钩子监并且在watch钩子中监听$route
