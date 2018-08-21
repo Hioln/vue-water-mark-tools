@@ -1,25 +1,22 @@
 # vue-watermark
->>一个canvas制作背景水印，完全自定义。
+一个canvas制作背景水印，完全自定义。
 
-# 效果展示     
+### 效果展示     
 ![](https://wuhaoran0409.github.io/waterMark/1.png)
 ![](https://wuhaoran0409.github.io/waterMark/2.png)
 
-# 安装
+### 安装
 >>npm install vue-water-mark-tools --save
 
-# 使用
-## 在main.js
-1. import VueWater from 'vue-water-mark-tools/src/lib/index';
-2. Vue.use(VueWater);
+### 使用
+import VueWater from 'vue-water-mark-tools/src/lib/index';
+Vue.use(VueWater);
 
-## 在页面的引入
 <div id="fatherid"> 
   <vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
 </div>
 
-# 文档
-## 使用时机
+### 使用时机
 >> 1. 路由跳转时使用，可根据父页面的高度，水印自动适应分配高度及宽度
 >> 示例：
   <vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
@@ -37,7 +34,7 @@
   this.$store.state.waterMark.waterRef.initPage();
   这里需要用到vuex，需要在mounted时，把ref="waterMarkRef"，存入state中，想重新渲染水印调用waterMark对象中的initPage()方法。
   
-## 参数配置
+### 参数配置
 >> fatherId属性必须传入！
 |参数名称|参数说明|类型|默认值|
 |fatherId|canvas插入的div的id属性值|String|必传项|
@@ -54,7 +51,7 @@
 |lineType|strokeText虚线类型  fillText实线类型|String|fillText|
 |lineColorType|strokeStyle虚线类型画笔  fillStyle实线类型画笔|String|fillStyle|
 
-## 方法
+### 方法
 |方法名称|方法说明|是否可以重写或被调用|
 |initPage|初始化页面|是|
 |setDomData|设置一些基本的属性数据|否|
