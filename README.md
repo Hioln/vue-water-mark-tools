@@ -1,14 +1,13 @@
 # vue-watermark
 
->一个canvas制作背景水印，完全自定义。
+>>一个canvas制作背景水印，完全自定义。
 
-## Build Setup
-
-``` bash
+## 安装
+>>npm install vue-water-mark-tools --save
 ![](https://wuhaoran0409.github.io/waterMark/1.png)
 ![](https://wuhaoran0409.github.io/waterMark/2.png)
 # 安装组件
-npm install vue-water-mark-tools --save
+
 
 # 启动本地项目
 npm run dev
