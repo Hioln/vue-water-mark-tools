@@ -8,7 +8,7 @@
 [演示地址](https://wuhaoran0409.github.io/study/dist/index.html)
 
 ### 安装
-npm install vue-water-mark-tools --save
+* npm install vue-water-mark-tools --save
 
 ### 使用
 * import VueWater from 'vue-water-mark-tools/src/lib/index';
