@@ -39,6 +39,7 @@ Vue.use(VueWater);
 ### 参数配置
 >> fatherId属性必须传入！
 |参数名称|参数说明|类型|默认值|
+|:---|:---|:---|:---|
 |fatherId|canvas插入的div的id属性值|String|必传项|
 |timeOut|水印刷新间隔（此属性是为了防止某些页面DOM操作频繁，和页面渲染时间差）|Number|500|
 |txt|水印文本|String|水印文本|
@@ -55,6 +56,7 @@ Vue.use(VueWater);
 
 ### 方法
 |方法名称|方法说明|是否可以重写或被调用|
+|:---|:---|:---|
 |initPage|初始化页面|是|
 |setDomData|设置一些基本的属性数据|否|
 |createdDiv|创建小的div来包含小的canvas|否|
