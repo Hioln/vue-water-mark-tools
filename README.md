@@ -5,7 +5,7 @@
 ![](https://wuhaoran0409.github.io/waterMark/1.png)
 
 ### 演示地址     
-[](https://wuhaoran0409.github.io/study/dist/index.html)
+[十多个](https://wuhaoran0409.github.io/study/dist/index.html)
 
 ### 安装
 >>npm install vue-water-mark-tools --save
