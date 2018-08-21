@@ -1,5 +1,5 @@
 # vue-watermark
-一个canvas制作背景水印，完全自定义。
+一个canvas制作的水印背景，可配组件。
 
 ### 效果展示     
 ![](https://wuhaoran0409.github.io/waterMark/1.png)
