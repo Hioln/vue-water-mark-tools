@@ -11,8 +11,8 @@
 npm install vue-water-mark-tools --save
 
 ### 使用
-> import VueWater from 'vue-water-mark-tools/src/lib/index';
-> Vue.use(VueWater);
+1 import VueWater from 'vue-water-mark-tools/src/lib/index';
+2 Vue.use(VueWater);
 
 <div id="fatherid"> 
   <vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
