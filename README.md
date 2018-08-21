@@ -5,10 +5,10 @@
 ![](https://wuhaoran0409.github.io/waterMark/1.png)
 
 ### 演示地址     
-[十多个](https://wuhaoran0409.github.io/study/dist/index.html)
+[演示地址](https://wuhaoran0409.github.io/study/dist/index.html)
 
 ### 安装
->>npm install vue-water-mark-tools --save
+npm install vue-water-mark-tools --save
 
 ### 使用
 import VueWater from 'vue-water-mark-tools/src/lib/index';
@@ -19,8 +19,8 @@ Vue.use(VueWater);
 </div>
 
 ### 使用时机
->> 1. 路由跳转时使用，可根据父页面的高度，水印自动适应分配高度及宽度
->> 示例：
+1. 路由跳转时使用，可根据父页面的高度，水印自动适应分配高度及宽度
+示例：
   <vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
   watch: {
     $route() {
@@ -30,8 +30,8 @@ Vue.use(VueWater);
   mounted() {
     this.$refs.waterMarkRef.initPage();
   }
->> 2. 一个页面有频繁的DOM操作。例如：A种业务页面操作完成，想渲染B种业务页面。并没有跳转路由，但是，水印外层的div高度改变。此时需要使用。
->> 示例：
+2. 一个页面有频繁的DOM操作。例如：A种业务页面操作完成，想渲染B种业务页面。并没有跳转路由，但是，水印外层的div高度改变。此时需要使用。
+示例：
   <vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
   this.$store.state.waterMark.waterRef.initPage();
   这里需要用到vuex，需要在mounted时，把ref="waterMarkRef"，存入state中，想重新渲染水印调用waterMark对象中的initPage()方法。
