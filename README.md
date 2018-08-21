@@ -37,7 +37,6 @@ Vue.use(VueWater);
   这里需要用到vuex，需要在mounted时，把ref="waterMarkRef"，存入state中，想重新渲染水印调用waterMark对象中的initPage()方法。
   
 ### 参数配置
->> fatherId属性必须传入！
 |参数名称|参数说明|类型|默认值|
 |:---|:---|:---|:---|
 |fatherId|canvas插入的div的id属性值|String|必传项|
