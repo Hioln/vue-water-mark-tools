@@ -1,5 +1,6 @@
 # vue-watermark
-一个canvas制作的水印背景，可配组件。
+* 一个canvas制作的水印背景，可配组件。
+* 如果用疑问请联系： 微信：MRJYZX-15-04-16  QQ：978434783  phone: 183-4746-0829
 
 ### 效果展示     
 ![](https://wuhaoran0409.github.io/waterMark/1.png)
