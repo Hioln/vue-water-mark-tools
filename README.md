@@ -1,6 +1,5 @@
 # vue-watermark
 * 一个canvas制作的水印背景，可配组件。
-* 如果用疑问请联系： 微信：MRJYZX-15-04-16  QQ：978434783  phone: 183-4746-0829
 
 ### 效果展示     
 ![](https://wuhaoran0409.github.io/waterMark/1.png)
@@ -65,3 +64,5 @@
 |createdDiv|创建小的div来包含小的canvas|否|
 |createdCanvas|创建小的canvas来画水印|否|
 |canvasToImage|把canvas转化成base64格式的方法，实现用户保存|是|
+
+* 如果用疑问请联系： 吴浩然<微信：MRJYZX-15-04-16  QQ：978434783  phone: 183-4746-0829>
