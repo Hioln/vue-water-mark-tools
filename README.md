@@ -17,6 +17,10 @@
 <div id="fatherid"> 
   <vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
 </div>
+### 功能介绍
+* 水印字体、颜色、文本等等，都是可配资源。
+* 水印背景会根据浏览器窗口大小实现自适应
+* 水印增加防去除功能，午饭通过删除标签或者js脚本删除
 
 ### 使用时机
 1. 路由跳转时使用，可根据父页面的高度，水印自动适应分配高度及宽度
