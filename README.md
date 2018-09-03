@@ -60,6 +60,7 @@
 |方法名称|方法说明|是否可以重写或被调用|
 |:---|:---|:---|
 |initPage|初始化页面|是|
+|observe|实时监听DOM变化，防止用户去除水印|否|
 |setDomData|设置一些基本的属性数据|否|
 |createdDiv|创建小的div来包含小的canvas|否|
 |createdCanvas|创建小的canvas来画水印|否|
