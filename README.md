@@ -17,6 +17,7 @@
 <div id="fatherid"> 
   <vue-water-mark-tools ref="waterMarkRef" :fatherId="'app-main'" :txt="'水印文本'"></vue-water-mark-tools>
 </div>
+
 ### 功能介绍
 * 水印字体、颜色、文本等等，都是可配资源。
 * 水印背景会根据浏览器窗口大小实现自适应
