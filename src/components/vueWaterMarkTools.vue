@@ -102,7 +102,6 @@ export default {
     methods: {
         // 实时监听DOM变化，防止用户去除水印
         observe() {
-            this.$log('document.body', document.body);
             let bodyEl = document.body;
             let that = this;
             bodyEl.addEventListener('DOMNodeRemoved', function (event) {
@@ -112,14 +111,11 @@ export default {
         // 初始化页面
         initPage() {
             setTimeout(_ => {
-                this.$log('1.', 'initPage');
                 let layerDiv = document.getElementById('layerDiv');
                 //  判断是否存在最外层的div
                 if (layerDiv) {
-                    this.$log('1-1', 'layerDiv存在');
                     this.uploadCanvas();
                 } else {
-                    this.$log('1-2', 'layerDiv不存在');
                     this.setDomData();
                 }
             }, this.timeOut);
@@ -130,7 +126,6 @@ export default {
         },
         // 设置一些基本的属性数据
         setDomData(type) {
-            this.$log('2.', 'setDomData');
             this.mainWidth = (_ => {
                 if (document.getElementById(this.fatherId)) {
                     return document.getElementById(this.fatherId).offsetWidth;
@@ -230,7 +225,6 @@ export default {
         canvasToImage(canvas) {
             let image = new Image();
             image.src = canvas.toDataURL('image/png');
-            this.$log('base64', image.src);
         }
     }
 };
