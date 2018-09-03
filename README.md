@@ -1,5 +1,5 @@
 # vue-watermark
-* 一个canvas制作的水印背景，可配组件。
+* 一个canvas制作的水印背景，可配组件，控制台删除canvas标签可重新渲染，防止水印被客户端去除。
 
 ### 效果展示     
 ![](https://wuhaoran0409.github.io/waterMark/1.png)
