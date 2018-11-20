@@ -86,7 +86,7 @@ export default {
         },
         'lineColorType': {
             type: String, //  strokeStyle虚线类型画笔  fillStyle实线类型画笔
-            default: ' fillStyle'
+            default: 'fillStyle'
         }
     },
     mounted() {
@@ -199,8 +199,8 @@ export default {
                         ctx.beginPath();
                         ctx.rotate(this.angle * this.deg);
                         ctx.font = this.font;
-                        ctx[this.lineType](this.txt, this.waterMarkSpace, this.waterMarkTop);
                         ctx[this.lineColorType] = this.fontColor;
+                        ctx[this.lineType](this.txt, this.waterMarkSpace, this.waterMarkTop);
                         ctx.closePath();
                     }
                     //  this.canvasToImage(canvas);
@@ -214,8 +214,8 @@ export default {
                     ctx.beginPath();
                     ctx.rotate(this.angle * this.deg);
                     ctx.font = this.font;
-                    ctx[this.lineType](this.txt, this.waterMarkSpace, this.waterMarkTop);
                     ctx[this.lineColorType] = this.fontColor;
+                    ctx[this.lineType](this.txt, this.waterMarkSpace, this.waterMarkTop);
                     ctx.closePath();
                     //  this.canvasToImage(canvas);
                 }
