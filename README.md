@@ -71,5 +71,4 @@
 |createdCanvas|创建小的canvas来画水印|否|
 |canvasToImage|把canvas转化成base64格式的方法，实现用户保存|是|
 
-* 如果用疑问请联系： 吴浩然<微信：MRJYZX-15-04-16  QQ：978434783  电话: 183-4746-0829>
 * 转载请说明出处！
